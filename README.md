@@ -1,4 +1,4 @@
-# Github User Profile APp
+# Github User Profile App
 A small web-app which uses Github API to fetch their User data via username.
 
 
