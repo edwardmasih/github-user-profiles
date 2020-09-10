@@ -7,4 +7,4 @@ A small web-app which uses Github API to fetch their User data via username.
 - search for user
 - get and show data
 
-<code>404Error : some issue in search bar</code>
+<code>Issue : placeholder doesn't show up after submission of the username in the form</code>
