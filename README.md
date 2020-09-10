@@ -8,3 +8,5 @@ A small web-app which uses Github API to fetch their User data via username.
 - get and show data
 
 <code>Issue : placeholder doesn't show up after submission of the username in the form</code>
+
+[Click here to run the app..!](https://raw.githack.com/edwardmasih/github-user-profiles/master/index.html)
