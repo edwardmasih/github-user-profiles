@@ -24,10 +24,14 @@ function createCard(userData) {
   const cardHTML = `
         <div class="card">
             <div>
-                <img class="avatar" src="${userData.avatar_url}" alt="${userData.name}" />
+                <a href="${userData.html_url}">
+                    <img class="avatar" src="${userData.avatar_url}" alt="${userData.name}" />
+                </a>
             </div>
             <div class="user-info">
-                <h2>${userData.name}</h2>
+                <a href="${userData.html_url}">
+                    <h2>${userData.name}</h2>
+                </a>
                 <h4>${userData.location}</h4>
                 <p>${userData.bio}</p>
 
