@@ -95,6 +95,7 @@ input:focus {
 }
 
 .info {
+  width: 300px;
   margin-top: 20px;
   padding: 0;
   display: flex;
@@ -127,6 +128,7 @@ input:focus {
     margin-top: 0;
   }
   .info {
+    min-width: 300px;
     max-width: 400px;
     display: flex;
     margin-right: 20px;

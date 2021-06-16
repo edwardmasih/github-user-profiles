@@ -32,9 +32,11 @@ function createCard(userData) {
                 <a href="${userData.html_url}">
                     <h2>${userData.name}</h2>
                 </a>
-                <h4>${userData.location}</h4>
-                <p>${userData.bio}</p>
-
+                
+                ${
+                  userData.location!=null ? `<h4>${userData.location}</h4>` : '',
+                  userData.bio!=null ? `<p>${userData.bio}</p>` : ''
+                }
                 <ul class="info">
                     <li>${userData.followers}<strong>Followers</strong></li>
                     <li>${userData.following}<strong>Following</strong></li>
