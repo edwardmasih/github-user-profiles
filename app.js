@@ -32,7 +32,6 @@ function createCard(userData) {
                 <a href="${userData.html_url}">
                     <h2>${userData.name}</h2>
                 </a>
-                
                 ${
                   userData.location!=null ? `<h4>${userData.location}</h4>` : '',
                   userData.bio!=null ? `<p>${userData.bio}</p>` : ''
